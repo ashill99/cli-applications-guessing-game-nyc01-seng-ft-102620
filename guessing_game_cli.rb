@@ -8,7 +8,7 @@ def run_guessing_game
      puts "Goodbye!"
      elsif
      real_answer == user_answer.to_i
-     "You guessed the correct number!"
+     puts "You guessed the correct number!"
    else
     # binding.pry
      puts "Sorry! The computer guessed #{real_answer}."
